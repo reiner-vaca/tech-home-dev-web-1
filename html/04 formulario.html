@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>formulario</h1>
+    <form action="" method="get">
+        <!-- input de tipo texto (caja text) -->
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" placeholder="Ingrese su nombre">
+
+        <br>
+
+        <!-- input de tipo checkbox -->
+        <label for="genero">Femenino</label>
+        <input type="checkbox" name="" id="genero">
+        <label for="genero">Masculino</label>
+        <input type="checkbox" name="" id="genero" checked>
+
+        <br>
+        <!-- input de tipo radiobutton -->
+        <label for="genero">Femenino</label>
+        <input type="radio" name="" id="genero" checked>
+        <label for="genero">Masculino</label>
+        <input type="radio" id ="genero">
+        <br>
+        <label for="fecha">Selecione su fecha de nacimiento</label>
+        <input type="date" id="fecha">
+
+        <br>
+        <label for="mes">Seleccione el mes</label>
+        <input type="month" id="mes">
+        <br>
+        <label for="correo">Correo electronico</label>
+        <input type="email" id="correo" placeholder="Ingrese su correo electronico" required>
+
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
