@@ -7,10 +7,13 @@
 <body>
 
     <h1>formulario</h1>
-    <form action="" method="get">
+
+    <!-- www.google.com?nombre=dgsdgsd&genero=M -->
+    <!-- method => POST, GET -->
+    <form action="" method="POST">
         <!-- input de tipo texto (caja text) -->
         <label for="nombre">Nombre:</label>
-        <input id="nombre" type="text" placeholder="Ingrese su nombre">
+        <input id="nombre" type="text" placeholder="Ingrese su nombre" pattern="[a-zA-z0-9]*">
 
         <br>
 
@@ -36,6 +39,38 @@
         <br>
         <label for="correo">Correo electronico</label>
         <input type="email" id="correo" placeholder="Ingrese su correo electronico" required>
+
+        <br>
+        <label for="foto">Selecione su foto</label>
+        <input type="file" id="foto" accept="image/png">
+
+        <br>
+        <label for="video">Selecione un video</label>
+        <input type="file" id="video" accept="video/*">
+
+        <br>
+        <label for="audio">Selecione un audio</label>
+        <input type="file" id="audio" accept="audio/*">
+
+        <br>
+        <label for="cantidad">Selecione la cantidad</label>
+        <input type="number" id="cantidad">
+
+        <br>
+        <label for="color">Selecione un color</label>
+        <input type="color" id="color">
+
+        <br>
+        <label for="hora">Ingrese una hora</label>
+        <input type="time" id="hora">
+
+        <br>
+        <label for="rango">Selecione un rango</label>
+        <input type="range" name="" id="" >
+
+        <br>
+        <label for="contrasenha">Ingrese su contraseña</label>
+        <input type="password" placeholder="Ingrese su contraseña" required minlength="6" maxlength="10">
 
         <br>
         <input type="submit" value="Enviar">
