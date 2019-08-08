@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML | JS</title>
+</head>
+<body>
+
+    <input type="text" id="numero1"> <br>
+    <input type="text" id="numero2"><br>   
+
+    <select name="" id="operaciones">
+        <option value="suma">suma</option>
+        <option value="resta">restar</option>
+        <option value="producto">multiplicar</option>
+        <option value="division">dividir</option>
+    </select>
+    <br>
+    <input type="text" id="resultado"> <br>
+
+    <!-- evento onClick -->
+    <button onclick="operaciones()">Sumar</button>
+
+    <script>
+        //selecionar cualquier elemento html desde javascript
+        //con document.getElementById("nombre-del-id-requerido")       
+        function operaciones() {
+            var num1 = document.getElementById("numero1").value;
+            var num2 = document.getElementById("numero2").value;
+            var res = document.getElementById("resultado");
+            var op = document.getElementById("operaciones");
+            var resultado = "";
+
+            switch (op.value) {
+                case "suma": resultado = parseInt(num1) + parseInt(num2); break;
+                case "resta": resultado = parseInt(num1) - parseInt(num2); break;
+                case "producto": resultado = parseInt(num1) * parseInt(num2); break;
+                case "division":
+                    if (num2 > 0) {
+                        resultado = parseInt(num1) / parseInt(num2);
+                    }else{
+                        resultado = "No puede dividir un número entre cero (0)"
+                    }
+                    break;
+            }
+            res.value = resultado; 
+        }
+        
+    </script>
+    
+</body>
+</html>
