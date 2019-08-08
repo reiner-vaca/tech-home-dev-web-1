@@ -1,0 +1,32 @@
+/* nombre de la etiqueta */
+h1{
+    color: red;
+}
+
+/* creando clases*/
+.nombreClase{
+    color: blue;
+}
+
+/* por medio de identificadores */
+
+#titulo-verde{
+    color: green
+}
+
+#titulo-amarillo{
+    color: yellow
+}
+
+/* css a etiquetas especificas */
+/*div p{
+    color: purple
+}*/
+/* css a hijos especificos de una etiqueta */
+/* div > p{
+    color: blue
+} */
+/* css a elementos que tengan como hno, mayor */
+p ~ p{
+    color: blue
+}

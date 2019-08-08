@@ -1,0 +1,16 @@
+h3{
+    color: green;
+}
+h1{
+    font-size: 12px 
+}
+/* una clase se define con un punto inicial
+antes del nombre que le asignemos */
+
+.rojo{
+    color: red
+}
+
+.cursiva{
+    font-style: italic
+}

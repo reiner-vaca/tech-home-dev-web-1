@@ -1,0 +1,30 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background: red;
+    border: solid 0px black;
+    display: inline-block;
+    margin: 10px 5px;
+    margin: 3px 20px 0px 50px;
+    /*margin-top: medida de arriba;
+    margin-bottom: medida de abajo;
+    margin-left: medida de la izq;
+    margin-right: medida de lado der;*/
+/* } */
+.colorNombre{
+    background: red;
+}
+.colorHex{
+    background: #000
+}
+.colorRGB{
+    height: 300px;
+    width: 300px;
+    /* background: rgb(255, 0, 0); */
+    background-image: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi19qjQhu3jAhWxBtQKHQbJB0EQjRx6BAgBEAU&url=https%3A%2F%2Farpentechnologies.com%2Fes%2Fblog%2Fdiseno-web%2Fque-es-css3-y-algunas-de-sus-funcionalidades%2F&psig=AOvVaw1PZ3XQ9aVdkx-TzUS808Nv&ust=1565139897019104") unset;
+}
+.colorRGB-tran{
+    height: 100px;
+    width: 100px;
+    background: rgba(22, 22, 22,0.6);
+}
