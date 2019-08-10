@@ -1,0 +1,234 @@
+[
+	{
+	"id": 1,
+	"nombre": "Agentes antirreumáticos (indometacina)"
+	},
+	{
+	"id": 2,
+	"nombre": "Alfentanilo"
+	},
+	{
+	"id": 3,
+	"nombre": "Azapropazona"
+	},
+	{
+	"id": 4,
+	"nombre": "Buprenorfina"
+	},
+	{
+	"id": 5,
+	"nombre": "Butorfanol"
+	},
+	{
+	"id": 6,
+	"nombre": "Carprofeno"
+	},
+	{
+	"id": 7,
+	"nombre": "Codeina"
+	},
+	{
+	"id": 8,
+	"nombre": "Dextromoramida"
+	},
+	{
+	"id": 9,
+	"nombre": "Dextropropoxifeno"
+	},
+	{
+	"id": 10,
+	"nombre": "Diamorfina"
+	},
+	{
+	"id": 11,
+	"nombre": "Diclofenaco"
+	},
+	{
+	"id": 12,
+	"nombre": "Diclofenaco (administración tópica)"
+	},
+	{
+	"id": 13,
+	"nombre": "Diflunisal"
+	},
+	{
+	"id": 14,
+	"nombre": "Dihidrocodeína"
+	},
+	{
+	"id": 15,
+	"nombre": "Etodolaco"
+	},
+	{
+	"id": 16,
+	"nombre": "Etoricoxib"
+	},
+	{
+	"id": 17,
+	"nombre": "Fenazona (antipirina)"
+	},
+	{
+	"id": 18,
+	"nombre": "Fenilbutazona"
+	},
+	{
+	"id": 19,
+	"nombre": "Fenoperidina"
+	},
+	{
+	"id": 20,
+	"nombre": "Fenoprofeno"
+	},
+	{
+	"id": 21,
+	"nombre": "Fentanilo"
+	},
+	{
+	"id": 22,
+	"nombre": "Flurbiprofeno"
+	},
+	{
+	"id": 23,
+	"nombre": "Hidrocodona"
+	},
+	{
+	"id": 24,
+	"nombre": "Hidromorfona"
+	},
+	{
+	"id": 25,
+	"nombre": "Ibuprofeno"
+	},
+	{
+	"id": 26,
+	"nombre": "Indometacina"
+	},
+	{
+	"id": 27,
+	"nombre": "Isoxicam"
+	},
+	{
+	"id": 28,
+	"nombre": "Ketoprofeno"
+	},
+	{
+	"id": 29,
+	"nombre": "Ketorolaco"
+	},
+	{
+	"id": 30,
+	"nombre": "Leflunomida"
+	},
+	{
+	"id": 31,
+	"nombre": "Levacetilmetadol"
+	},
+	{
+	"id": 32,
+	"nombre": "Lornoxicam"
+	},
+	{
+	"id": 33,
+	"nombre": "Meclofenamato"
+	},
+	{
+	"id": 34,
+	"nombre": "Mefenámico"
+	},
+	{
+	"id": 35,
+	"nombre": "Meloxicam"
+	},
+	{
+	"id": 36,
+	"nombre": "Metadona"
+	},
+	{
+	"id": 37,
+	"nombre": "Metamizol sódico (Dipirona)"
+	},
+	{
+	"id": 38,
+	"nombre": "Morfina"
+	},
+	{
+	"id": 39,
+	"nombre": "Nabumetona"
+	},
+	{
+	"id": 40,
+	"nombre": "Naproxeno"
+	},
+	{
+	"id": 41,
+	"nombre": "Oxaprozin"
+	},
+	{
+	"id": 42,
+	"nombre": "Oxicodona"
+	},
+	{
+	"id": 43,
+	"nombre": "Oxifenbutazona"
+	},
+	{
+	"id": 44,
+	"nombre": "Oximorfona"
+	},
+	{
+	"id": 45,
+	"nombre": "Paracetamol"
+	},
+	{
+	"id": 46,
+	"nombre": "Pentazocina"
+	},
+	{
+	"id": 47,
+	"nombre": "Petidina"
+	},
+	{
+	"id": 48,
+	"nombre": "Piroxicam"
+	},
+	{
+	"id": 49,
+	"nombre": "Sufentanilo"
+	},
+	{
+	"id": 50,
+	"nombre": "Suprofeno"
+	},
+	{
+	"id": 51,
+	"nombre": "Tenoxicam"
+	},
+	{
+	"id": 52,
+	"nombre": "Tolfenámico"
+	},
+	{
+	"id": 53,
+	"nombre": "Tolmetina"
+	},
+	{
+	"id": 54,
+	"nombre": "Tramadol"
+	},
+	{
+	"id": 55,
+	"nombre": "Zomepiraco"
+	},
+	{
+	"id": 56,
+	"nombre": "Ácido acetilsalicílico"
+	},
+	{
+	"id": 57,
+	"nombre": "Ácido flufenámico"
+	},
+	{
+	"id": 58,
+	"nombre": "Ácido meclofenámico"
+	}
+]
