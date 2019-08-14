@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <style>
+        .columna{
+            background: #f2f2f2;
+            border: 1px solid black;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        class container => centra el contenido
+        class container-fluid => ocupa todo el ancho del contenedor padre
+     -->
+    <div class="container">
+        <!-- 
+            class justify-content-start coloca el contenido al inicio
+            class justify-content-center coloca el contenido al centro
+            class justify-content-end coloca el contenido al final
+            class justify-content-between distribuye los espacios de las columnas restantes
+         -->
+        <div class="row justify-content-between">
+            <!-- 
+                col => tamaño automatico 
+                col-{1-12} => dar tamaño a las columnas
+             -->
+            <!--
+                col-xs-{1-12} => tamaño de pantalla extra-pequeño 
+                col-sm-{1-12} => tamaño de pantalla pequeño
+                col-lg-{1-12} => tamaño de pantalla grande
+                col-xl-{1-12} => tamaño de pantalla extra-grande
+             -->
+            <div class="col-3 columna">
+                <h3>titulo 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit animi molestias qui!</p>
+            </div>
+            <div class="col-3 columna ">
+                    <h3>titulo 2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit animi molestias qui!</p>
+            </div>           
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+</body>
+</html>
