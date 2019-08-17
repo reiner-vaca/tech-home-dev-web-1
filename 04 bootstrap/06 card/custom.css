@@ -1,0 +1,11 @@
+.card{
+    overflow: hidden;
+}
+.card-img-top{
+    transition: all 1s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}

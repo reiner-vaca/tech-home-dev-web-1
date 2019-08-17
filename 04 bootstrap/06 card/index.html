@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card con bootstrap</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <!-- 
+        estructura card en bootstrap
+        .card                   => estamos trabajando con tarjetas
+            .card-header        => encabezado de la tarjeta
+            .card-body          => contenido de la tarjeta
+                card-title      => titulo
+                card-subtitle   => subtitulo
+                card-text       => texto para la tarjeta
+            .card-footer        => pie de la tarjeta
+            .card-img-top       => imagen arriba
+            .card-img-bottom    => imagen abajo
+
+     -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="http://lorempixel.com/400/200/" alt="">
+                        <div class="card-header">
+                            <h3>encabezado de la tarjeta</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis assumenda id veniam vitae expedita ad reprehenderit aut iure, eius eveniet alias aliquid incidunt, harum vero omnis excepturi dolorum dicta sed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="http://lorempixel.com/400/200/" alt="">                        
+                            <div class="card-body">
+                                <h3 class="card-title">titulo de la tarjeta</h3>
+                                <h4 class="card-subtitle">subtitulo</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis assumenda id veniam vitae expedita ad reprehenderit aut iure, eius eveniet alias aliquid incidunt, harum vero omnis excepturi dolorum dicta sed.
+                                </p>
+                                <a href="#" class="btn btn-info">ver detalle</a>
+                            </div>
+                        </div>
+                    <div class="card">                                            
+                        <div class="card-body">
+                            <h3 class="card-title">titulo de la tarjeta</h3>
+                            <h4 class="card-subtitle">subtitulo</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis assumenda id veniam vitae expedita ad reprehenderit aut iure, eius eveniet alias aliquid incidunt, harum vero omnis excepturi dolorum dicta sed.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ullam reprehenderit praesentium tempore voluptate optio harum esse ut pariatur quae eius aspernatur dolore, provident dignissimos quibusdam, omnis dicta placeat facere!
+                            </p>
+                            <a href="#" class="btn btn-info">ver detalle</a>
+                        </div>
+                        <img class="card-img-bottom" src="http://lorempixel.com/400/200/" alt="">
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="row mt-3">
+            <!-- bg-success
+                     bg-primary
+                     bg-secondary
+                     bg-warning
+                     bg-danger
+                     bg-info
+                     bg-default
+                -->
+            <div class="col">                
+                <div class="card bg-primary">
+                    <div class="card-body">
+                        <h3 class="card-title">titulo</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic impedit ipsa voluptatum qui nisi molestiae reprehenderit ea, a non quos excepturi molestias suscipit, expedita magni provident adipisci aperiam soluta inventore?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">                
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h3 class="card-title">titulo</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic impedit ipsa voluptatum qui nisi molestiae reprehenderit ea, a non quos excepturi molestias suscipit, expedita magni provident adipisci aperiam soluta inventore?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">                
+                <div class="card bg-danger">
+                    <div class="card-body">
+                        <h3 class="card-title">titulo</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic impedit ipsa voluptatum qui nisi molestiae reprehenderit ea, a non quos excepturi molestias suscipit, expedita magni provident adipisci aperiam soluta inventore?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+</body>
+</html>
