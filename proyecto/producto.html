@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalle del Producto</title>
+
+    <!-- STYLE CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- ICON FONT MATERIAL-ICON -->
+    <link rel="stylesheet" href="./assets/css/material-icon.css">
+
+    <!-- STYLE CUSTOM -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- START NAV -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ofertas">Ofertas</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <!-- END NAV -->
+    </header>
+
+    <!-- START Contenedor Principal -->
+    <section class="container constain">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-4">
+                <!-- START Contenedor del detalle -->
+                <div class="container">
+                    <div class="row">
+                        <div class="th-title">
+                            <h3>Camiseta Deportiva</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="col-12">Precio</p>
+                        <p class="col-12">descripcion general</p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form class="row justify-content-between" action="">
+                                <div class="form-group col-3">
+                                    <label for="cantidad">Cantidad:</label>
+                                    <input id="cantidad" class="form-control" type="number">
+                                </div>
+                                <button class="btn btn-success col-6">COMPRAR</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Contenedor del detalle -->
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <div class="container-fluid">
+                    <div class="row justify-content-between">
+                        <div class="col-sm-12 col-md-10 col-lg-6">
+                            <a class="call-img" data-img="./resources/img/hombre/camicetas/S931346366300_h.jpg"
+                                data-toggle="modal" data-target="#modal-images">
+                                <img title="titulo de la imagen 1" class="box-img"
+                                    src="./resources/img/hombre/camicetas/S931346366300_h.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-6">
+                            <a class="call-img" data-img="./resources/img/hombre/camicetas/S931106369001_h.jpg"
+                                data-toggle="modal" data-target="#modal-images">
+                                <img title="titulo de la imagen 2" class="box-img"
+                                    src="./resources/img/hombre/camicetas/S931106369001_h.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-6">
+                            <a class="call-img" data-img="./resources/img/hombre/camicetas/S932936003200_h.jpg"
+                                data-toggle="modal" data-target="#modal-images">
+                                <img title="titulo de la imagen 3" class="box-img"
+                                    src="./resources/img/hombre/camicetas/S932936003200_h.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- END Contenedor Principal -->
+
+    <!--  -->
+    <section class="container constain">
+        <h4>Productos que quizas te interecen</h4>
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-10 col-md-6 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="card-box">
+                        <img class="card-img-top" src="./resources/img/mujer/sudaderas/S920012326300_h.jpg" alt="">
+                        <div class="new-product">nuevo</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-danger">
+                            <span class="material-icons">
+                                shopping_cart
+                            </span>
+                        </a>
+                        <a href="#" class="btn btn-info">ver detalle</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-6 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="card-box">
+                        <img class="card-img-top" src="./resources/img/hombre/chaquetas/S936862190100_h.jpg" alt="">
+                        <div class="new-product">nuevo</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-danger">
+                            <span class="material-icons">
+                                shopping_cart
+                            </span>
+                        </a>
+                        <a href="#" class="btn btn-info">ver detalle</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-6 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="card-box">
+                        <img class="card-img-top" src="./resources/img/mujer/calzado/botines/W862891404000_h.jpg"
+                            alt="">
+                        <div class="offer-product">oferta</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-danger">
+                            <span class="material-icons">
+                                shopping_cart
+                            </span>
+                        </a>
+                        <a href="#" class="btn btn-info">ver detalle</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-6 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="card-box">
+                        <img class="card-img-top" src="./resources/img/hombre/calzado/deportivo/S952361202000_h.jpg"
+                            alt="">
+                        <div class="offer-product">Oferta</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Text</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-danger">
+                            <span class="material-icons">
+                                shopping_cart
+                            </span>
+                        </a>
+                        <a href="#" class="btn btn-info">ver detalle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--  -->
+
+   
+    <!-- Modal -->
+    <div class="modal fade" id="modal-images" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <img src="" alt="" id="img-modal">
+        </div>
+    </div>   
+
+    <!-- SCRIPT JS JQUERY -->
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script-custom.js"></script>
+
+</body>
+
+</html>
