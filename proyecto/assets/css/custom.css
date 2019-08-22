@@ -1,7 +1,7 @@
 /*
 * imagen de fondo en la etiqueta header* 
 */
-header{
+.header{
     background: url(../images/portada.png) no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -18,6 +18,67 @@ header{
 }
 
 /* .nav transparente */
-header .navbar-dark{
+.header .navbar-dark{
     background: rgba(10, 10, 10, 0.8) !important;
+}
+
+/* custom card bootstrap */
+.card-box{
+    overflow: hidden;
+    transition: all 1s;
+    position: relative; /*posicionar el elemento como si no existiera*/
+}
+
+.card-box > .card-img-top{
+    
+}
+.card-box > .card-body{
+    opacity: 0;
+    width: 100%;
+    background: rgba(250, 250, 250, 0.6);
+    position: absolute;/*posicionar el elemento a cualquier ubicacion del contenedor padre que tenga como posicion el relative => position: relative; */
+    bottom: 0px;
+}
+
+.card-box > .card-img-top , .card-box > .card-body{
+    transition: all 1s;
+}
+
+.card-box:hover > .card-img-top{
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.card-box:hover > .card-body{
+    transition: all 1s;
+    opacity: 1;
+}
+
+/* icono de oferta y nuevo */
+.offer-product, .new-product{    
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    top: 5px;
+    left: 5px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.offer-product{
+    background: yellow;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.new-product{
+    background: red;
+    color: #fff;
+    border: rgba(200, 200, 200, 0.8);
+}
+.border-orange{
+    border: 1px solid orange;
 }
